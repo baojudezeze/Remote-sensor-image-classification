@@ -170,3 +170,5 @@ def Supervised_Algorithm(model: str, X, train, test, y, rows, cols, reference_sh
         print(conf_mat)
         print("Classification Report of neural network")
         print(class_report)
+    else:
+        print("Unknown supervised algorithm!!!")
